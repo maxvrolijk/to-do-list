@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+
+<body>
+	<form action="todo_add.php" method="post">
+		<table border="1">
+			<tr>
+				<td><input type="numeric"  maxlength="2" name="id"></td>
+				<td><input type="text" name="name"></td> 
+				<td><input type="date"  name="birthday"></td>
+				<td><input type="numeric" maxlength="3" name="height"></td>
+				<td><a href="todo_add.php"><input type="submit" value="add"></a></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
